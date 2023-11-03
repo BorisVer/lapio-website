@@ -1,24 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
 .red-box {
-    width: 180px;
-    height: 90px;
+    width: 200px;
+    height: 100px;
     background-color: red;
-    margin: 10px;
-    padding: 1px 0px;
+    border: 18px solid green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px ;
+
 }
 
 .yellow-box {
-    width: 180px;
-    height: 90px;
+    width: 200px;
+    height: 100px;
     background-color: yellow;
-    margin: -100px 300px 0px;
-    padding: 1px 0px;
-    position: absolute;
+    border: 18px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px ;
 }
 
 .green-box {
-    width: 180px;
-    height: 90px;
+    width: 200px;
+    height: 100px;
     background-color: green;
-    margin: -100px 600px 0px;
-    padding: 1px 0px;
+    border: 18px solid yellow;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
+
+p {
+    color: blue;
+}
+
